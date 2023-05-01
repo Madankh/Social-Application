@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.27.2",
     "firebase": "^9.11.0",
-    "redux-persis": "^2.0.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.4",

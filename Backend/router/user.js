@@ -122,7 +122,7 @@ router.post("/login" ,
         //             return res.status(400).json("some error occured")
         //   }
 
-          try {
+        //   try {
           const user = await User.findOne({email:req.body.email});
           if(!user){
                   return res.status(400).json("User doesn't found")  
@@ -139,9 +139,9 @@ router.post("/login" ,
           const {password , ...other} = user._doc
           res.status(200).json({other , accessToken});
                     
-} catch (error) {
-            res.status(500).json("Internal error occured")        
-}
+// } catch (error) {
+//             res.status(500).json("Internal error occured")        
+// }
 
 })
 
