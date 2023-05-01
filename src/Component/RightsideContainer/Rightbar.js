@@ -16,7 +16,7 @@ export default function Rightbar() {
   useEffect(() => {
     const getuser = async()=>{
       try {
-        const res  = await axios.get(`http://localhost:5000/api/user/all/user/${id}`)
+        const res  = await axios.get(`http://139.144.12.15:80/api/user/all/user/${id}`)
         setUsers(res.data);
       } catch (error) {
         console.log("Some error occured")

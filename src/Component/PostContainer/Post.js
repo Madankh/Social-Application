@@ -16,7 +16,7 @@ export default function Post({post}) {
   useEffect(() => {
     const getuser = async()=>{
       try {
-        const res  = await axios.get(`http://localhost:5000/api/user/post/user/details/${post.user}`)
+        const res  = await axios.get(`http://139.144.12.15:80/api/user/post/user/details/${post.user}`)
         setuser(res.data);
       } catch (error) {
         console.log("Some error occured")

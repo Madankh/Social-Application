@@ -20,7 +20,7 @@ export default function ProfileLeftbar() {
   useEffect(() => {
     const getuser = async()=>{
       try {
-        const res  = await axios.get(`http://localhost:5000/api/user/post/user/details/${id}`)
+        const res  = await axios.get(`http://139.144.12.15:80/api/user/post/user/details/${id}`)
         setuser(res.data);
       } catch (error) {
         console.log("Some error occured")
@@ -46,10 +46,10 @@ export default function ProfileLeftbar() {
 
   const handleFollow = async()=>{
     if(Follow === "Follow"){
-      await fetch(`http://localhost:5000/api/user/following/${id}` , {method:'PUT', headers:{'Content-Type':"application/JSON" , token:accessToken} , body:JSON.stringify({user:`${user.other._id}`})})
+      await fetch(`http://139.144.12.15:80/api/user/following/${id}` , {method:'PUT', headers:{'Content-Type':"application/JSON" , token:accessToken} , body:JSON.stringify({user:`${user.other._id}`})})
       setUnFollow("UnFollow")
     }else{
-      await fetch(`http://localhost:5000/api/user/following/${id}` , {method:'PUT', headers:{'Content-Type':"application/JSON" , token:accessToken} , body:JSON.stringify({user:`${user.other._id}`})})
+      await fetch(`http://139.144.12.15:80/api/user/following/${id}` , {method:'PUT', headers:{'Content-Type':"application/JSON" , token:accessToken} , body:JSON.stringify({user:`${user.other._id}`})})
       setUnFollow("Follow")
     }
   }

@@ -10,7 +10,7 @@ export default function Resetpassword() {
   console.log(password);
   const handleClick = async(e)=>{
     e.preventDefault();
-    await fetch(`http://localhost:5000/api/user/reset/password?${code}` , {method:"PUT" , headers:{'Content-Type':"application/JSON"} , body:JSON.stringify({password:password})}).then((data)=>{
+    await fetch(`http://139.144.12.15:5000/api/user/reset/password?${code}` , {method:"PUT" , headers:{'Content-Type':"application/JSON"} , body:JSON.stringify({password:password})}).then((data)=>{
       alert("Your password rest successfully")
     })
   };

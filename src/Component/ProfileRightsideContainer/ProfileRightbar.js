@@ -14,7 +14,7 @@ export default function ProfileRightbar() {
   useEffect(() => {
     const getFollowing = async()=>{
       try {
-        const res = await axios.get(`http://localhost:5000/api/post/followers/${id}`);
+        const res = await axios.get(`http://139.144.12.15:80/api/post/followers/${id}`);
         setFollowinguser(res.data);
       } catch (error) {
         console.log("Error")

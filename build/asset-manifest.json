@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b6650cc7.css",
+    "main.js": "/static/js/main.78799bdd.js",
+    "static/js/787.9181411e.chunk.js": "/static/js/787.9181411e.chunk.js",
+    "static/media/image6.jpg": "/static/media/image6.766c81dfcdc7671ea4f1.jpg",
+    "static/media/image2.jpg": "/static/media/image2.73745f38dbf2953a3a58.jpg",
+    "static/media/image5.jpg": "/static/media/image5.eca306be90a7a29139db.jpg",
+    "static/media/Profile.png": "/static/media/Profile.515fd2678bdc3f28ad28.png",
+    "static/media/image1.jpg": "/static/media/image1.0362aed2c3ba88309a31.jpg",
+    "static/media/image3.jpg": "/static/media/image3.74fb1b56abc5522e0114.jpg",
+    "static/media/image4.jpg": "/static/media/image4.98936035d2306f34c555.jpg",
+    "static/media/cat-face.png": "/static/media/cat-face.d51be3bfd0a380604f42.png",
+    "static/media/ads.jpg": "/static/media/ads.70b4051be6472d10c285.jpg",
+    "static/media/video.png": "/static/media/video.52535072f84ae498ac6f.png",
+    "static/media/search.png": "/static/media/search.d1066c36c935fbee034f.png",
+    "static/media/gallery.png": "/static/media/gallery.4c5732dc496eefd38bfd.png",
+    "static/media/add-user.png": "/static/media/add-user.a5c6ae51810f726594ac.png",
+    "static/media/share.png": "/static/media/share.1bd035c832e3da06eb2e.png",
+    "static/media/afterFollowImg.png": "/static/media/afterFollowImg.200aee561188761165dc.png",
+    "static/media/speech-bubble.png": "/static/media/speech-bubble.a7384ecae7d2b36a6d50.png",
+    "static/media/setLike.png": "/static/media/setLike.bc713766326de162ebd4.png",
+    "static/media/bell.png": "/static/media/bell.5846d4b1994ad4088108.png",
+    "index.html": "/index.html",
+    "main.b6650cc7.css.map": "/static/css/main.b6650cc7.css.map",
+    "main.78799bdd.js.map": "/static/js/main.78799bdd.js.map",
+    "787.9181411e.chunk.js.map": "/static/js/787.9181411e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6650cc7.css",
+    "static/js/main.78799bdd.js"
+  ]
+}
